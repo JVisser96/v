@@ -1,0 +1,997 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../font/Roboto-Regular-webfont.eot');
+    src: url('../font/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto-Regular-webfont.woff') format('woff'),
+         url('../font/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../font/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+@font-face {	
+		font-family: 'robotolight';
+    src: url('../font/Roboto-Light-webfont.eot');
+    src: url('../font/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto-Light-webfont.woff') format('woff'),
+         url('../font/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../font/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@import url('reset.css');
+
+html,body {
+ 	position: relative;
+ 	display: block;
+ 	height:100%;
+ 	width:100%;
+ 	overflow: hidden;
+	background-color: gray;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 4em;
+    padding:0.5em 1em;
+}
+h2 {
+    font-size: 3em;
+    padding:0.5em 1em;
+}
+h3 {
+    font-size: 2.4em;
+    padding:0.5em 1em;
+}
+h4 {
+    font-size: 2em;
+    padding:0.5em 1em;
+}
+h5 {
+    font-size: 1.5em;
+    padding:0.5em 1em;
+}
+h6 {
+    font-size: 1em;
+    padding:0.5em 1em;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #00adee;
+}
+.container {
+    display: block;
+    position: relative;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.page {
+    display: block;
+    position: relative;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    z-index:99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- Main CSS -------------------------- */
+
+/*
+html, body{
+	
+  margin: 0;
+  padding: 0;
+	
+}
+
+body{
+	
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: #d0d0d0;
+	
+}
+
+.container{
+	position: absolute;
+	
+  width: 100%;
+  min-height: 600px;
+	display: none;
+	opacity: 0;
+}
+*/
+
+
+/* -------------------------- Start Page CSS -------------------------- */
+
+
+.wholePageStart{
+	background-image: url(../img/4949496.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	
+}
+
+.overlay{
+	position: fixed;
+	z-index: 100;
+}
+
+.logo{
+	position: absolute;
+	display: block;
+	top: calc(50% - 250);
+	left: calc(50% - 200px);
+	width: 400px;
+}
+.logo1{
+	position: absolute;
+	display: block;
+	top: calc(50% - 250px);
+	left: calc(50% - 200px);
+	width: 400px;
+}
+.logo2{
+	position: absolute;
+	display: block;
+	top: calc(50% - 250px);
+	left: calc(50% - 200px);
+	width: 400px;
+}
+/* -------------------------- Menu CSS -------------------------- */
+overlayHolder{
+    display: none;
+    position: relative;
+    width: 100%;
+    opacity: 0;
+    
+}
+
+.startButton{
+  position: absolute;
+	width: 200px; 
+  bottom: 2%;
+	text-align: center;
+	margin: 0 calc(50% - 100px);
+  background-color: rgba(100%, 100%, 100%, 0.85);
+	display: block;
+  max-width: 250px;
+  text-decoration: none;
+	font-family: 'robotolight';
+	z-index: 250;
+}
+
+/*
+.continueFirst{
+	position: absolute;
+	bottom: 10%;
+	right: 50%;
+	z-index: 1000;
+}
+*/
+
+.navLines{
+  background-color: #b5b5b5;
+  position: fixed;
+}
+
+.topLineNav{
+  height: 1px;
+  top: 15%;
+}
+
+.rightLineNav{
+  width: 1px;
+  height: 0;
+  left: calc(100% - 15%);
+  top: 0;
+}
+
+.bottomLineNav{
+  height: 1px;
+  bottom: 15%;
+}
+
+.leftLineNav{
+  width: 1px;
+  left: 15%;
+  top: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+/* Icon 1 */
+
+#nav-icon3{
+	opacity: 0;
+  width: 60px;
+  height: 45px;
+  position: fixed;
+	top: 5vh;
+	left: 5.5%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .7s ease-in-out;
+  -moz-transition: .7s ease-in-out;
+  -o-transition: .7s ease-in-out;
+  transition: .7s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon3 span{
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 70%;
+  background: #737373;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+/* Icon 3 */
+
+/*
+#nav-icon3 span:nth-child(1) {
+  top: 7px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 18px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 29px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+*/
+
+.menuItem{
+	position: fixed;
+	left: .5%;
+	width: 14%;
+	height: 45px;
+	background-color: #575757;
+	opacity: 0;
+	
+}
+
+.menuItem:hover {
+	position: fixed;
+	left: .5%;
+	width: 14%;
+	height: 45px;
+	background-color: #2f2f2f;
+	opacity: 0;
+	
+}
+
+.aboutSection{
+	top: calc(16.2% + 0px);
+}
+.webSection{
+	top: calc(16.2% + 55px);
+}
+.ModelingSection{
+	top: calc(16.2% + 110px);
+}
+.graphicSection{
+	top: calc(16.2% + 165px);
+}
+.contactSection{
+	top: calc(16.2% + 220px);
+}
+
+.menuLinks{
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #00adee;
+	font-family: 'robotolight';
+	font-size: 1.1em;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.sizePadding{
+/*		padding-top: 4px;*/
+	}
+
+.button{
+	position: fixed;
+  width: 110px; 
+  bottom: 2%;
+  text-align: center;
+	background-color: rgba(100%, 100%, 100%, 0.85);
+  display: none;
+  max-width: 250px;
+  text-decoration: none;
+  font-family: 'robotolight';
+  z-index: 250;
+  opacity: 0;
+	border: #a7a7a7 solid 1px;
+}
+
+.button-container a:hover{
+	background-color: #575757;
+}
+
+.nextButton{
+    
+    margin: 0 calc(50% - 150px);
+    
+
+}
+
+.prevButton{
+    margin: 0 calc(50% + 45px);
+
+}
+
+
+
+/* -------------------------- Content CSS -------------------------- */
+
+.page {
+    display: block;
+    position: relative;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    z-index:99;
+}
+
+
+
+.exit{
+	display: block;
+	width: 40px;
+	position: relative;
+	top: 0;
+ 	left: calc(100% - 75px);
+  margin: 20px;
+}
+
+
+/* ----------- About Me Content CSS ----------- */
+.aboutHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	position: relative;
+}
+
+.aboutMe{
+	display: block;
+	position: relative;
+	width: 65%;
+	height: 60vh;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: #ffffff solid 1px;
+	margin: 0 auto;
+	margin-top: 20vh;
+}
+
+.aboutLogo{
+	position: relative;
+	display: block;
+	float: right;
+	margin-top: 2%;
+	width: 35%;
+}
+
+.aboutText{
+    width: 55%;
+    text-align: center;
+    font-family: 'robotoregular';
+    font-size: 2em;
+    font-weight: 200;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 2;
+    padding: 5% 5% 2% 5%;
+    top: calc(50% - 182px);
+
+}
+
+.aboutText2{
+	width: 55%;
+  text-align: center;
+  font-family: 'robotoregular';
+  font-size: 1.3em;
+  display: block;
+  position: relative;
+  float: left;
+  line-height: 2;
+  padding: 5%;
+
+}
+
+/* ----------- Web Content CSS ----------- */
+
+.webContainer{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+}
+
+.hoverMain{
+	height: 60vh;
+	width: 65%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.hover1{
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.ster .hover1{
+		background-image: url(../img/sterMain.jpg);
+/*		background-size: 100% 100%;*/
+}
+
+.best .hover1{
+		background-image: url(../img/bestMain.jpg);
+/*		background-size: 100% 100%;*/
+
+}
+
+.dash .hover1{
+		background-image: url(../img/dashMain.jpg);
+/*		background-size: 100% 100%;*/
+}
+
+.tbd .hover1{
+		background-image: url(../img/tbdMain.jpg);
+/*		background-size: 100% 100%;*/
+
+}
+
+
+.hover2{
+	position: absolute;
+	top: 0;
+	left:  200px;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0.7;
+}
+
+.hover3{
+	position: absolute;
+	top: 0;
+	left: -200px;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0.7;
+	
+}
+
+.sterMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+
+.bestMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 100vh;
+}
+
+.dashMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 200vh;
+}
+
+.dayMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 300vh;
+}
+
+.popupOver{
+	z-index: 200;
+  display: block;
+  position: fixed;
+  top: 10%;
+	bottom: 10%;
+	right: 10%;
+	left: 10%;
+  width: 80%; 
+  height: 80%; 
+  background-color: rgba(0, 0, 0, .8);
+	
+}
+
+.sterDivBox{
+	display: none;
+	opacity: 0;
+	border: 1px solid #0386cb;
+}
+
+.bestDivBox{
+	display: none;
+    width: 100%;
+    height: 100%;
+	opacity: 1;
+	border: 1px solid #ff6961;
+}
+
+.dashDivBox{
+	display: none;
+	opacity: 0;
+	border: 1px solid #c8c8c8;
+}
+
+.dayDivBox{
+	display: none;
+	opacity: 0;
+	border: 1px solid #f9da23;
+}
+
+/* ----------- film Content CSS ----------- */
+
+.mtv .hover1{
+		background-image: url(../img/mtvMain.jpg);
+/*		background-size: 100% 100%;*/
+}
+
+.twd .hover1{
+		background-image: url(../img/twdMain.jpg);
+/*		background-size: 100% 100%;*/
+
+}
+
+.mtvMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+
+.twdMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 100vh;
+}
+
+.mtvDivBox{
+	display: none;
+	opacity: 0;
+	border: 1px solid #0386cb;
+}
+
+.twdDivBox{
+	display: none;
+	opacity: 0;
+	border: 1px solid #ff6961;
+}
+/* ----------- 3D Content CSS ----------- */
+
+.modelingContainer{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 400vh;
+/*	opacity: 0;*/
+}
+
+.mash .hover1{
+		background-image: url(../img/mashMain.jpg);
+/*		background-size: cover;*/
+}
+
+.man .hover1{
+		background-image: url(../img/manMain.jpg);
+/*		background-size: cover;*/
+}
+
+.gun .hover1{
+		background-image: url(../img/gunMain.jpg);
+/*		background-size: cover;*/
+}
+
+.car .hover1{
+		background-image: url(../img/carMain.jpg);
+/*		background-size: cover;*/
+}
+
+.mashMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+
+.manMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 100vh;
+}
+
+.gunMainHolder{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 200vh;
+}
+
+.mashPop{
+	display: none;
+	opacity: 0;
+	border: 1px solid #c8c8c8;
+}
+
+.manPop{
+	display: none;
+	opacity: 0;
+	border: 1px solid #c8c8c8;
+}
+
+
+.gunPop{
+	display: none;
+	opacity: 0;
+	border: 1px solid #c8c8c8;
+}
+/* ----------- Contact Content CSS ----------- */
+.contact{
+    padding: 0% 25% 15% 25%;
+}
+.contact_heading{
+    font-size: 4em;
+    padding: 0.5em 1em;
+    text-align: center;
+    color: #00b3ff;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}
+
+sendButton{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 3.9em;
+    /* padding: 6px 12px; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #575756;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #1AAFE6;
+    border-radius: 1px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.button2{
+  width: 110px;
+  text-align: center;
+background-color: rgba(100%, 100%, 100%, 0.85);
+  max-width: 250px;
+  text-decoration: none;
+  font-family: 'robotolight';
+  z-index: 250;
+  opacity: 0;
+	border: #a7a7a7 solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fix {
+    clear: both;
+}

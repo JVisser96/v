@@ -1,0 +1,379 @@
+@media screen and (max-width: 1250px){
+		.menuLinks{
+			font-size: 0.9em;
+		}
+}
+
+@media screen and (max-width: 320px) {
+
+	
+/* -------------------------- Menu CSS -------------------------- */
+	
+	.rightLineNav{
+		display: none;
+	}
+
+	.leftLineNav{
+		display: none;
+	}
+
+	#nav-icon3{
+		left: calc(50% - 30px);
+	}
+
+
+	.menuItem{
+		width: 100%;
+		left: 0;
+
+	}
+
+	.menuItem:hover {
+		width: 100%;
+		left: 0;
+
+	}
+	
+	.menuLinks{
+		font-size: 1.2em;
+		
+		
+	}
+	
+	
+	
+
+	.logo, .logo1, .logo2{
+		display: none;
+	}
+	.smallLogo{
+		width: 100%;
+		height: 100%;
+		background-image: url(../img/Logo.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 25%;
+	}
+	
+	
+/* -------------------------- Content CSS -------------------------- */
+	.exit{
+		width: 25px;
+		left: calc(100% - 45px);
+		margin: 10px;
+	}
+	
+	.desktopSize{
+		display: none;
+	}
+	/* ----------- About Me Content CSS ----------- */
+	.aboutHolder{
+		width: 100%;
+		height: 100vh;
+		display: block;
+		position: relative;
+	}
+
+	.aboutMe{
+		width: 80%;
+	}
+	
+	.aboutLogo{
+		float: none;
+        margin: 2% auto;
+        width: 50%;
+	}
+    
+    .aboutText {
+        width: 100%;
+        line-height: 1;
+        font-size: 1.5em;
+        padding: 0;
+        top: calc(50% - 170px);
+    }
+    
+    .aboutText2 {
+        width: 90%;
+        font-size: 0.9em;
+        line-height: 1.5;
+/*        padding: 3%;*/
+        padding-top: 0;
+        margin: 0;
+    }
+		
+	
+/* ----------- Web Content CSS ----------- */
+
+
+	.hoverMain{
+            height: 440px;
+            width: 80%;
+            background-size: 100% 100%;
+            background-attachment: scroll;
+        }
+
+	
+
+		.ster .hover1{
+			background-image: url(../img/sterMainSmall.jpg);
+		}
+
+		.best .hover1{
+			background-image: url(../img/bestMainSmall.jpg);
+		}
+		
+
+		.dash .hover1{
+			background-image: url(../img/dashMainSmall.jpg);
+		}
+		
+		.tbd .hover1{
+			background-image: url(../img/tbdMainSmall.jpg);
+		}
+
+		.mash .hover1{
+			background-image: url(../img/sterMainSmall.jpg);
+		}
+
+		.man .hover1{
+			background-image: url(../img/manMainSmall.jpg);
+		}
+		
+		.gun .hover1{
+			background-image: url(../img/gunMainSmall.jpg);
+		}
+
+		.car .hover1{
+			background-image: url(../img/carMainSmall.jpg);
+		}
+		
+		.mtv .hover1{
+			background-image: url(../img/mtvMainSmall.jpg);
+		}
+		
+		.twd .hover1{
+			background-image: url(../img/twdMainSmall.jpg);
+		}
+	
+	
+}
+
+
+
+@media screen and (min-width: 321px) and (max-width: 424px) {
+
+	
+/* -------------------------- Menu CSS -------------------------- */
+	
+	.rightLineNav{
+		display: none;
+	}
+
+	.leftLineNav{
+		display: none;
+	}
+
+	#nav-icon3{
+		left: calc(50% - 30px);
+	}
+
+
+	.menuItem{
+		width: 100%;
+		left: 0;
+
+	}
+
+	.menuItem:hover {
+		width: 100%;
+		left: 0;
+
+	}
+	
+	.menuLinks{
+		font-size: 1.2em;
+	}
+	
+	/* -------------------------- Start Page CSS -------------------------- */
+
+
+	.logo, .logo1, .logo2{
+		display: none;
+	}
+	.smallLogo{
+		width: 100%;
+		height: 75%;
+		background-image: url(../img/Logo.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 25%;
+	}
+	
+/* -------------------------- Content CSS -------------------------- */
+	.exit{
+		width: 25px;
+		left: calc(100% - 45px);
+		margin: 10px;
+	}
+	
+	.desktopSize{
+		display: none;
+	}
+	/* ----------- About Me Content CSS ----------- */
+	.aboutHolder{
+		width: 100%;
+		height: 100vh;
+		display: block;
+		position: relative;
+	}
+
+	.aboutMe{
+		width: 80%;
+	}
+	
+	.aboutLogo{
+		float: none;
+        margin: 2% auto;
+        width: 50%;
+	}
+    
+    .aboutText {
+        width: 100%;
+        line-height: 1;
+        font-size: 1.5em;
+        padding: 0 3% 2% 3%;
+        top: calc(50% - 200px);
+    }
+    
+    .aboutText2 {
+        width: 94%;
+        font-size: 1em;
+        line-height: 1.5;
+        padding: 3%;
+        padding-top: 0;
+        margin: 0;
+    }
+	
+		/* ----------- Web Content CSS ----------- */
+
+
+		.hoverMain{
+            height: 440px;
+            width: 80%;
+        }
+        
+        .hover1{
+            background-size: 100% 100%;
+            background-attachment: scroll;
+        }
+
+		.ster .hover1{
+			background-image: url(../img/sterMainSmall.jpg);
+		}
+
+		.best .hover1{
+			background-image: url(../img/bestMainSmall.jpg);
+		}
+		
+		.dash .hover1{
+			background-image: url(../img/dashMainSmall.jpg);
+		}
+		
+		.tbd .hover1{
+			background-image: url(../img/tbdMainSmall.jpg);
+		}
+
+		.mash .hover1{
+			background-image: url(../img/mashMainSmall.jpg);
+		}
+
+		.man .hover1{
+			background-image: url(../img/manMainSmall.jpg);
+		}
+		
+		.gun .hover1{
+			background-image: url(../img/gunMainSmall.jpg);
+		}
+
+		.car .hover1{
+			background-image: url(../img/carMainSmall.jpg);
+		}
+		
+		.mtv .hover1{
+			background-image: url(../img/mtvMainSmall.jpg);
+		}
+		
+		.twd .hover1{
+			background-image: url(../img/twdMainSmall.jpg);
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	
+}
+
+
+@media screen and (min-width: 820px) and (max-width: 1070px) {
+	.sizePadding{
+		padding-top: 4px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
